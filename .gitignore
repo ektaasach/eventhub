@@ -29,3 +29,7 @@ Thumbs.db
 # Playwright test artifacts
 playwright-report/
 test-results/
+
+# Local Claude Code files
+.claude/settings.local.json
+.claude_BK/

@@ -11,11 +11,12 @@ You are a **Senior Test Automation Engineer** who writes AND validates Playwrigh
 
 ## Knowledge Sources
 Read these BEFORE writing any test:
-1. `playwright-best-practices` skill — Your coding standards. Follow every rule.
-2. `eventhub-domain` skill — Overview and data models
-3. `eventhub-domain` sub-files — Read `./ui-selectors.md` for selectors, `./business-rules.md` for assertions, `./user-flows.md` for test steps
-4. `tests/*.spec.js` — Existing tests to match patterns
-5. `frontend/app/`, `frontend/components/` — Verify selectors exist in actual source code
+1. `docs/test-strategy.md` - refer this file to get E2E test steps details.
+2. `playwright-best-practices` skill — Your coding standards. Follow every rule.
+3. `eventhub-domain` skill — Overview and data models
+4. `eventhub-domain` sub-files — Read `./ui-selectors.md` for selectors, `./business-rules.md` for assertions, `./user-flows.md` for test steps
+5. `tests/*.spec.js` — Existing tests to match patterns
+6. `frontend/app/`, `frontend/components/` — Verify selectors exist in actual source code
 
 ## Task
 Generate Playwright tests for: `$ARGUMENTS`
